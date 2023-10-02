@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>David Cibulka - Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif; 
+            margin: 0;
+            padding: 0;
+        }
+
+        .clock {
+            font-size: 1rem;
+            color: #fff;
+            margin-right: 20px;
+        }
+
+       
+        .image-container {
+            border: 2px solid #ccc;
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+      
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">David Cibulka</a>
+        <div class="clock">
+            <span id="clock-display"></span>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#more">Map</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <header class="text-center">
+            <h1>David Cibulka</h1>
+            <p class="lead">17 years old</p>
+        </header>
+
+        <section id="about-me" class="mt-4">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm David Cibulka, and I'm a 17-year-old student. I have a passion for football and sports. In my free time, I enjoy playing football or going out with friends.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Sed convallis magna eu sem. Duis condimentum augue id magna semper rutrum. Aliquam erat volutpat. Donec quis nibh at felis congue commodo. Aliquam erat volutpat. Curabitur sagittis hendrerit ante. Aliquam erat volutpat. Nunc auctor. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna.
+
+Aenean id metus id velit ullamcorper pulvinar. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Integer pellentesque quam vel velit. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Duis risus. Praesent in mauris eu tortor porttitor accumsan. Etiam quis quam. Quisque porta. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Curabitur bibendum justo non orci.
+            </p>
+        </section>
+
+        <section id="contact" class="mt-4">
+            <h2>Contact</h2>
+            <p>
+                You can reach out to me through the following channels:
+                <ul>
+                    <li>
+                        <i class="fab fa-google"></i>
+                        <a href="mailto:dawidgbc@gmail.com">dawidgbc@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/david_mxrray/">@david_mxrray</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+420735508822">+420 735 508 822</a>
+                    </li>
+                </ul>
+            </p>
+        </section>
+        
+        <section id="gallery" class="mt-4">
+            <h2>Gallery</h2>
+            <p>
+                Here are some photos:
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="image-container">
+                            <img src="Snímek obrazovky 2023-09-18 125611.png" alt="Image 1" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="image-container">
+                            <img src="Snímek obrazovky 2023-09-18 125713.png" alt="Image 2" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="image-container">
+                            <img src="Snímek obrazovky 2023-09-18 125822.png" alt="Image 3" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </p>
+        </section>
+
+        <section id="more" class="mt-4">
+            <h2>Map</h2>
+            <p>
+                
+        </section>
+        
+        <!-- Embed the Google Maps iframe here -->
+        <section class="mt-4">
+            <iframe
+                width="100%"
+                height="400"
+                frameborder="0"
+                style="border:0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81628.70046273457!2d13.208467658252495!3d50.256510041899375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470a1346a25080fb%3A0x400af0f661545e0!2zS3LDoXNuw70gRHbFr3I!5e0!3m2!1scs!2scz!4v1695641689961!5m2!1scs!2scz"
+                allowfullscreen
+            ></iframe>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        David Cibulka
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript for the live clock -->
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('clock-display').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+
+        // Initial update
+        updateClock();
+    </script>
+</body>
+</html>
